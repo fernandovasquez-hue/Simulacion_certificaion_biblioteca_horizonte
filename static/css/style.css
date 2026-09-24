@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid red;
+}
+
+.barra_nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.presentacion_sitio_web{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+}
+.nombre_sitio_web{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 50%;
+    justify-content: flex-end;
+}
+.nombre_sitio_web span{
+    color: #2c87fd;
+}
+.logo_bibliteca{
+    width: 30%;
+}
+.logo_bibliteca img{
+    width: 100%;
+}
+.libros_seleccionados img{
+    width: 80%;
+    height: 50%;
+}
+
+.informacion_nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 57%;
+    width: 50%;
+}
+.libros_seleccionados{
+    display: flex;
+    width: 10%;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fernando Vásquez">
+    <title>Biblioteca Horizonte</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="barra_nav">
+            <div class="presentacion_sitio_web">
+                <div class="logo_bibliteca">
+                    <img src="static/image/book.png" alt="logo">
+                </div>
+                <div class="nombre_sitio_web">
+                    <h1><span>Horizonte</span></h1>
+                    <h2>Biblioteca</h2>
+                </div>
+            </div>
+            <div class="informacion_nav">
+                <div class="ingresar_correo">
+                    <input type="text" class="buscador" placeholder="Email" id="correo">
+                    <button class="login" id="botonLogin">Login</button>
+                </div>
+                <div class="libros_seleccionados">
+                    <img src="static/image/edit.png" alt="libros">
+                    <h2 id="pedidos">0</h2>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="categoria">
+            <div class="genero">
+                <img src="static/image/book.png" alt="novelas">
+                <p>Novelas</p>
+            </div>
+            <div class="genero">
+                <img src="static/image/flask.png" alt="ciencias">
+                <p>Ciencias</p>
+            </div>
+            <div class="genero">
+                <img src="static/image/building.png" alt="historia">
+                <p>Historia</p>
+            </div>
+            <div class="genero">
+                <img src="static/image/computer.png" alt="tecnologia">
+                <p>Tecnología</p>
+            </div>
+            <div class="genero">
+                <img src="static/image/art-studies.png" alt="arte">
+                <p>Arte</p>
+            </div>
+            <div class="genero">
+                <img src="static/image/bear.png" alt="infantil">
+                <p>Infantil</p>
+            </div>
+        </div>
+        <section class="ordenes_y_mas">
+            <div class="platos_muestra">
+                <div class="promocion">
+                    <p class="mensaje_principal"></p>
+                </div>
+                <img src="" alt="" id="producto">
+            </div>
+            <div class="pedir_ordenes">
+                <h2>Libros recomendados:</h2>
+                <div class="ordenes">
+                    <img src="" alt="Orden de Cien años de soledad">
+                    <div class="informacion_ordenes">
+                        <p></p>
+                        <a href="#">Ver Más...</a>
+                        <button class="agregar_al_carro" id="boton">+</button>
+                    </div>
+                </div>
+
+                <div class="ordenes">
+                    <img src="" alt="Orden de Sapiens">
+                    <div class="informacion_ordenes">
+                        <p></p>
+                        <a href="#">Ver Más...</a>
+                        <button class="agregar_al_carro" id="boton2">+</button>
+                    </div>
+
+                    <div class="ordenes">
+                        <img src="" alt="Orden de El principito">
+                        <div class="informacion_ordenes">
+                            <p></p>
+                            <a href="#">Ver Más...</a>
+                            <button class="agregar_al_carro" id="boton3">+</button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <script src="static/js/script.js" defer></script>
+</body>
+
+</html>
